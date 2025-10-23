@@ -166,3 +166,52 @@ body[data-theme='dark']{
 }
 body[data-theme='dark'] .sidebar{background:#111827;}
 body[data-theme='dark'] .skills-list li{background:#1f2937;color:#e6eef6;}
+
+/*------------------------------------------------------*/
+
+@media (max-width: 1080px) {
+    .layout {
+        flex-direction: column; /* Change layout to stack sidebar and content vertically */
+    }
+
+    .sidebar {
+        width: 100%; /* Make sidebar take full width */
+        height: auto; /* Adjust height automatically */
+        flex-direction: row; /* Make items inside sidebar horizontal */
+        justify-content: space-around; /* Distribute items horizontally */
+        padding: 15px 20px; /* Adjust padding for horizontal layout */
+        align-items: center; /* Vertically align items in the center */
+    }
+
+    .brand {
+        display: none; /* Hide brand or adjust its display */
+    }
+
+    .avatar {
+        margin: 0 10px; /* Adjust margin for horizontal flow */
+    }
+
+    .langChange, .documents {
+        margin: 0 10px; /* Adjust margin for horizontal flow */
+    }
+
+    .nav-links {
+        display: flex; /* Make nav links horizontal */
+        margin: 0;
+    }
+
+    .nav-links li {
+        margin: 0 15px; /* Add horizontal spacing between nav items */
+    }
+
+
+    .content-main,
+    .content-home,
+    .content-skills,
+    .content-projects {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px; /* Reset padding-top if it was adjusted for sidebar */
+    }
+}
+
