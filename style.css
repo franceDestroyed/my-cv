@@ -196,12 +196,12 @@ body[data-theme='dark'] .skills-list li{background:#1f2937;color:#e6eef6;}
     }
 
     .nav-links {
-        display: flex; /* Make nav links horizontal */
-        margin: 0;
+        display: inline-block; /*makes the link list vertical*/
+        margin: 0px;
     }
 
     .nav-links li {
-        margin: 0 15px; /* Add horizontal spacing between nav items */
+        margin: 8px; /* Add vertical spacing between nav items */
     }
 
 
