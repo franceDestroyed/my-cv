@@ -213,5 +213,19 @@ body[data-theme='dark'] .skills-list li{background:#1f2937;color:#e6eef6;}
         margin-right: auto;
         padding-top: 30px; /* Reset padding-top if it was adjusted for sidebar */
     }
+
+    .skills-list{
+        display: inline-block;
+        justify-content: center;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .skills-list li{
+    background:#e2e8f0;
+    margin:10px;
+    border-radius:6px;
+}
 }
 
